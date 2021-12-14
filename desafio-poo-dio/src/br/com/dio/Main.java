@@ -2,6 +2,7 @@ package br.com.dio;
 
 import java.time.LocalDate;
 
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -22,6 +23,8 @@ public class Main {
 		mentoria.setTitulo("mentoria de java");
 		mentoria.setDescricao("descrição mentoria java");
 		mentoria.setData(LocalDate.now());
+		
+		Conteudo conteudo = new Curso();
 		
 		System.out.println(curso1);
 		System.out.println(curso2);
